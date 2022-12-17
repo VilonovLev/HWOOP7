@@ -13,3 +13,18 @@ C:\Users\Maria Vilonova\OneDrive\Desktop\Java\ДЗ\Java\HWOOP7\HWOOP7\HWOOP7\obj
 C:\Users\Maria Vilonova\OneDrive\Desktop\Java\ДЗ\Java\HWOOP7\HWOOP7\HWOOP7\obj\Debug\net6.0\HWOOP7.pdb
 C:\Users\Maria Vilonova\OneDrive\Desktop\Java\ДЗ\Java\HWOOP7\HWOOP7\HWOOP7\obj\Debug\net6.0\HWOOP7.genruntimeconfig.cache
 C:\Users\Maria Vilonova\OneDrive\Desktop\Java\ДЗ\Java\HWOOP7\HWOOP7\HWOOP7\obj\Debug\net6.0\ref\HWOOP7.dll
+C:\Users\user\Source\Repos\HWOOP7\HWOOP7\obj\Debug\net6.0\HWOOP7.csproj.AssemblyReference.cache
+C:\Users\user\Source\Repos\HWOOP7\HWOOP7\obj\Debug\net6.0\HWOOP7.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Source\Repos\HWOOP7\HWOOP7\obj\Debug\net6.0\HWOOP7.AssemblyInfoInputs.cache
+C:\Users\user\Source\Repos\HWOOP7\HWOOP7\obj\Debug\net6.0\HWOOP7.AssemblyInfo.cs
+C:\Users\user\Source\Repos\HWOOP7\HWOOP7\obj\Debug\net6.0\HWOOP7.csproj.CoreCompileInputs.cache
+C:\Users\user\Source\Repos\HWOOP7\HWOOP7\obj\Debug\net6.0\HWOOP7.dll
+C:\Users\user\Source\Repos\HWOOP7\HWOOP7\obj\Debug\net6.0\refint\HWOOP7.dll
+C:\Users\user\Source\Repos\HWOOP7\HWOOP7\obj\Debug\net6.0\HWOOP7.pdb
+C:\Users\user\source\repos\HWOOP7\HWOOP7\bin\Debug\net6.0\HWOOP7.exe
+C:\Users\user\source\repos\HWOOP7\HWOOP7\bin\Debug\net6.0\HWOOP7.deps.json
+C:\Users\user\source\repos\HWOOP7\HWOOP7\bin\Debug\net6.0\HWOOP7.runtimeconfig.json
+C:\Users\user\source\repos\HWOOP7\HWOOP7\bin\Debug\net6.0\HWOOP7.dll
+C:\Users\user\source\repos\HWOOP7\HWOOP7\bin\Debug\net6.0\HWOOP7.pdb
+C:\Users\user\source\repos\HWOOP7\HWOOP7\obj\Debug\net6.0\HWOOP7.genruntimeconfig.cache
+C:\Users\user\source\repos\HWOOP7\HWOOP7\obj\Debug\net6.0\ref\HWOOP7.dll

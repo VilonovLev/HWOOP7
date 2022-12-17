@@ -49,9 +49,9 @@ namespace HWOOP7.data
             return base.GetHashCode();
         }
 
-        public override string? ToString()
+        public override string ToString()
         {
-            return $"id:{this.Id} model:{this.Model} color:{this.Color} number:{this.Namber}";
+            return $"\nidCar:{Id} model:{Model} color:{Color} number:{Namber}\n";
         }
 
         public string Id { get { return _id; } }

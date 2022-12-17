@@ -1,5 +1,7 @@
 ﻿using HWOOP7.data;
 using HWOOP7.app;
+using System.Diagnostics.Contracts;
+using System.Text.Json;
 
 namespace HWOOP7
 {
@@ -8,6 +10,7 @@ namespace HWOOP7
         static void Main(string[] args)
         {
             App.Run();
+
         }
     }
 }

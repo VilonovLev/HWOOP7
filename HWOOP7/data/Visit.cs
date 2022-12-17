@@ -13,7 +13,7 @@ namespace HWOOP7.data
         private DateTime _checkIn;
         private DateTime _checkOut;
 
-        public Visit(string id, string carId, DateTime checkIn, DateTime checkOut)
+        private Visit(string id, string carId, DateTime checkIn, DateTime checkOut)
         {
             _id = id;
             _carId = carId;
@@ -21,11 +21,12 @@ namespace HWOOP7.data
             _checkOut = checkOut;
         }
 
-        public Visit(string carId)
+        private Visit(string carId)
         {
             _id = Guid.NewGuid().ToString("N");
             _carId = carId;
             _checkIn = DateTime.Now;
+            _checkOut = new DateTime();
         }
 
         public static Visit Create(Car car) { return new Visit(car.Id); }
@@ -46,7 +47,12 @@ namespace HWOOP7.data
 
         public DateTime CheckIn { get { return _checkIn; } }
 
-        public DateTime CheckOUt { get { return _checkOut; } }
+        public DateTime CheckOut { get { return _checkOut; } }
+
+        public override string ToString()
+        {
+            return $"IdVisit:{Id} CarId:{CarId} CheckIn:{CheckIn} CheckOut:{CheckOut}";
+        }
     }
 
 

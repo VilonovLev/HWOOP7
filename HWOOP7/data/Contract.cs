@@ -1,8 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
+using System.Text.Json;
+using System.Text.Json.Serialization;
 
 namespace HWOOP7.data
 {
@@ -10,6 +13,7 @@ namespace HWOOP7.data
         where U : User 
         where C : Car
     {
+        
         private string _id;
         private U _user;
         private List<C> _cars;
@@ -44,14 +48,24 @@ namespace HWOOP7.data
             return new Contract<U, C>(id, user, cars, dateStart,dateEnd);
         }
 
+        [JsonPropertyName("Contract ID")]
         public string Id { get { return _id; } }
 
+       // [JsonPropertyName($"{_user.GetType()}")]
         public U GetUser { get { return _user; } }
 
         public List<C> Cars { get { return _cars; } set { _cars = value; } }
 
+        public void AddCar(Car car) { _cars.Add((C)car); }
+
         public DateTime DateStart { get { return _dateStart; } }
 
-        public DateTime DateTimeEnd { get { return _dateEnd; } set { _dateEnd = value; } }
+        public DateTime DateEnd { get { return _dateEnd; } set { _dateEnd = value; } }
+
+        public override string? ToString()
+        {
+            string _class = _user.GetType().Name;
+            return $"\nidContaract:{Id}\n {_class}:\n{GetUser}\n Cars:{string.Join(",",Cars)} \nDateStart:{DateStart} \nDataEnd:{DateEnd}\n----------------------------------------------------";
+        }
     }
 }

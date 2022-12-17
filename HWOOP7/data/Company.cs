@@ -40,7 +40,7 @@ namespace HWOOP7.data
 
         public override string? ToString()
         {
-            return $"{base.ToString()}, INN:{this.Inn}";
+            return $"{base.ToString()}, INN:{Inn}\n";
         }
     }
 }

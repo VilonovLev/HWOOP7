@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Text.Json;
 
 namespace HWOOP7.data
 {
@@ -45,7 +46,7 @@ namespace HWOOP7.data
 
         public override string? ToString()
         {
-            return $" id:{this.Id}, name:{this.Name}, address:{this.Address}";
+            return $" id:{Id}, name:{Name}, address:{Address}";
         }
 
     }

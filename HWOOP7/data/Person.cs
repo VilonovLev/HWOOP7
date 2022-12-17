@@ -56,7 +56,7 @@ namespace HWOOP7.data
 
         public override string? ToString()
         {
-            return $"{base.ToString()}, last name:{this.LastName}, passport number:{this.PassportNamber}";
+            return $"{base.ToString()}, last name:{LastName}, passport number:{PassportNamber}\n";
         }
     }
 }

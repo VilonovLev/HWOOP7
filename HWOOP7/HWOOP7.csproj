@@ -8,8 +8,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="controller\" />
-    <Folder Include="util\" />
     <Folder Include="service\" />
   </ItemGroup>
 
